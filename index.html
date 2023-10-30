@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel = "shortcut icon" type = "imagem/x-icon" href = "./assets/images/pokeball-icon-png.png">
+     <!--Normalize.css-->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <!--Font Roboto-->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+     <!-- CSS -->
+     <link rel="stylesheet" href="./assets/css/global.css">
+     <title>Pokedex</title>
+</head>
+<body>
+     <section id="modal">
+          <div id="details">
+          </section>
+     <section class="content">
+          <div class="banner">
+          <a href="./index.html"><img src="./assets/images/logo.png" id="bannerImg" alt="Image logo pokémon"></a>
+          <section class="buscarPokemon">
+               <form id="search-form">
+                    <input id="search" type="text" placeholder="Digite o nome de um Pokemon">
+               </form>
+          </section>
+          </div>
+          <ol id="pokemonsList" class="pokemons">
+          </ol>
+          <div class="pagination">        
+          <button id="loadMore" type="button">Carregar mais</button>
+           </div>  
+          </section>
+
+<script src="./assets/javascript/scripts.js"></script>
+</body>
+</html>
